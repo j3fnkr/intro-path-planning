@@ -1,0 +1,11 @@
+# Needed packages for the notebooks
+# Requires: Python >=3.11
+# Install with pip install -r requirements.txt
+networkx 
+matplotlib
+numpy
+scipy
+shapely
+ipywidgets
+jupyter
+ipykernel
