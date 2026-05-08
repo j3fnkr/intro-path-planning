@@ -16,7 +16,7 @@
 	    (pkgs.python312.withPackages (ps: with ps; [
 	      numpy
 	      jupyter
-	      scypi
+	      scipy
 	      pandas
 	      matplotlib
 	      shapely
