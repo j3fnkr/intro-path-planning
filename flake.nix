@@ -16,6 +16,7 @@
 	    (pkgs.python312.withPackages (ps: with ps; [
 	      numpy
 	      jupyter
+	      jupyterlab-vim
 	      scipy
 	      pandas
 	      matplotlib
