@@ -48,7 +48,7 @@ class KinChainCollisionChecker(CollisionChecker):
                 return True
         return False
     
-    def lineInCollision(self, startPos, endPos):
+    def lineInCollision(self, startPos, endPos, steps=None):
         assert (len(startPos) == self.getDim())
         assert (len(endPos) == self.getDim())
         steps = interpolate_line(startPos, endPos, self.fk_resolution)
